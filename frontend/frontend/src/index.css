@@ -1,0 +1,12 @@
+/* Remove @tailwind directives if not using Tailwind/PostCSS directly, or ensure Tailwind is set up correctly. 
+   If you want to use Tailwind classes in your CSS, make sure your build process supports it. 
+   Otherwise, use regular CSS for your styles. */
+
+body {
+  background: linear-gradient(to bottom right, #bfdbfe, #ddd6fe, #fbcfe8);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
